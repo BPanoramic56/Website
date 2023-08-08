@@ -1,0 +1,12 @@
+.paragraph_spacing{
+    line-height:120%;
+    margin-left: 1.5%;
+}
+
+img.recipe_image{
+    border-radius: 5%;
+    width: 20%;
+    height: 20%;
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+}
