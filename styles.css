@@ -64,30 +64,30 @@ header{
 
 .inner#chocolate_chip_coffee_cake_image{ 
     background: 
-        url(https://github.com/BPanoramic56/odin-recipes/blob/e4f8bc45799bf5a6a5c690b51f6776e7ab921ffd/docs/assets/images/chocolate-chip-coffee-cake2.jpg) 0 0, 
-        url(https://github.com/BPanoramic56/odin-recipes/blob/e4f8bc45799bf5a6a5c690b51f6776e7ab921ffd/docs/assets/images/images-2.jpeg) 300px 0, 
-        url(https://github.com/BPanoramic56/odin-recipes/blob/e4f8bc45799bf5a6a5c690b51f6776e7ab921ffd/docs/assets/images/1009275-4e8eaadff2984ce58affb52224695734-2.jpg) 600px 0, 
-        url(https://github.com/BPanoramic56/odin-recipes/blob/e4f8bc45799bf5a6a5c690b51f6776e7ab921ffd/docs/assets/images/Chocolate-Chip-Sour-Cream-Coffee-Cake_50.jpg) 900px 0;
+        url(/Users/brunogomespascotto/Downloads/CCCC1.jpg) 0 0, 
+        url(/Users/brunogomespascotto/Downloads/CCCC2.jpg) 300px 0, 
+        url(/Users/brunogomespascotto/Downloads/CCCC3.jpg) 600px 0, 
+        url(/Users/brunogomespascotto/Downloads/CCCC4.jpg) 900px 0;
     background-size: 300px 300px;
     background-repeat: no-repeat;
 }
 
 .inner#buffalo_chicken_sandwiches_image{ 
     background: 
-        url(https://github.com/BPanoramic56/odin-recipes/blob/e4f8bc45799bf5a6a5c690b51f6776e7ab921ffd/docs/assets/images/1113368-slow-cooker-buffalo-chicken-sandwiches-ReneePaj-1x1-1-f1ab4c11111343f7b88ddbfd9df88771.jpg) 0 0, 
-        url(https://github.com/BPanoramic56/odin-recipes/blob/e4f8bc45799bf5a6a5c690b51f6776e7ab921ffd/docs/assets/images/20210519_221045-1020x1024.jpg) 300px 0, 
-        url(https://github.com/BPanoramic56/odin-recipes/blob/e4f8bc45799bf5a6a5c690b51f6776e7ab921ffd/docs/assets/images/BUFFALO-CHICKEN-SANDWICHES-3-2.jpg) 600px 0, 
-        url(https://github.com/BPanoramic56/odin-recipes/blob/e4f8bc45799bf5a6a5c690b51f6776e7ab921ffd/docs/assets/images/HC20RL1qSyCTtcXM8UBB_buffalo-chicken-sandwich-5755.jpg) 900px 0;
+        url(/Users/brunogomespascotto/Downloads/BCS1.jpg) 0 0, 
+        url(/Users/brunogomespascotto/Downloads/BCS2.jpg) 300px 0, 
+        url(/Users/brunogomespascotto/Downloads/BCS3.jpg) 600px 0, 
+        url(/Users/brunogomespascotto/Downloads/BCS4.jpg) 900px 0;
     background-size: 300px 300px;
     background-repeat: no-repeat;
 }
 
 .inner#cuban_ropa_vieja_image{ 
     background: 
-        url(https://github.com/BPanoramic56/odin-recipes/blob/e4f8bc45799bf5a6a5c690b51f6776e7ab921ffd/docs/assets/images/79301-cuban-ropa-vieja-3x4-158-copy-ce7957573a694078971bd6183179835d.jpg) 0 0, 
-        url(https://github.com/BPanoramic56/odin-recipes/blob/e4f8bc45799bf5a6a5c690b51f6776e7ab921ffd/docs/assets/images/1017WEBWEEK0869.jpg.webp) 300px 0, 
-        url(https://github.com/BPanoramic56/odin-recipes/blob/e4f8bc45799bf5a6a5c690b51f6776e7ab921ffd/docs/assets/images/slow-cooker-ropa-vieja.jpg) 600px 0, 
-        url(https://github.com/BPanoramic56/odin-recipes/blob/e4f8bc45799bf5a6a5c690b51f6776e7ab921ffd/docs/assets/images/dscn2805x.jpg) 900px 0;
+        url(/Users/brunogomespascotto/Downloads/CuRoVi1.jpg) 0 0, 
+        url(/Users/brunogomespascotto/Downloads/CuRoVi2.jpg) 300px 0, 
+        url(/Users/brunogomespascotto/Downloads/CuRoVi3.jpg) 600px 0, 
+        url(/Users/brunogomespascotto/Downloads/CuRoVi4.jpg) 900px 0;
     background-size: 300px 300px;
     background-repeat: no-repeat;
 }
