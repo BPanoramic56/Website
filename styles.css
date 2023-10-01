@@ -14,6 +14,14 @@ header{
 
 .links{
     display: flex;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.links img{
+    width: 30px;
+    height: 30px;
+    border: rgb(250, 171, 171) dashed 1px;
 }
 
 .project_links{
