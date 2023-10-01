@@ -12,6 +12,20 @@ header{
     text-align: center;
 }
 
+.links{
+    display: flex;
+}
+
+.github_page{
+    background: url(docs/assets/images/Github-Symbol.png) 100px 0;
+    flex: 1;
+}
+
+.github_page{
+    background: url(docs/assets/images/The-Odin-Project.png) 100px 0;
+    flex: 1;
+}
+
 .recipes_header{
     font-size: 40px;
     font-family: cursive;
