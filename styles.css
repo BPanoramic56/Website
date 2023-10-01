@@ -102,6 +102,7 @@ header{
 .outer:hover .inner,.outer:focus .inner{
     animation:swap 8s ease-in-out infinite 2s;
 }
+
 @keyframes swap{
     0%{transform: translateX(0px);}
     25%{transform: translateX(-300px)} 
