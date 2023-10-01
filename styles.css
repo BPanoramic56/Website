@@ -6,6 +6,10 @@ header{
     text-align: center;
 }
 
+.subheader{
+    text-align: center;
+}
+
 .index_header{
     font-size: 40px;
     font-family: cursive;
@@ -13,7 +17,6 @@ header{
 }
 
 .links{
-    display: flex;
     width: 100%;
     margin-top: 5%;
     text-align: right;
@@ -35,10 +38,6 @@ header{
     width: 30px;
     height: 30px;
     border: rgb(250, 171, 171) dashed 1px;
-}
-
-.project_links{
-    flex: 1;
 }
 
 .recipes_header{
