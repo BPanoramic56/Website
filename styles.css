@@ -12,6 +12,12 @@ header{
     text-align: center;
 }
 
+.recipes_header{
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+}
+
 .paragraph_spacing{
     line-height:120%;
     margin-left: 4%;
