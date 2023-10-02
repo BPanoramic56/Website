@@ -30,13 +30,13 @@
 .link-image img{
     text-align: center;
     position: absolute;
-    margin: 1%;
+    display: flex;
     flex-direction: collumn;
 }
 
 .links img{
-    width: 100px;
-    height: 100px;
+    width: 30px;
+    height: 30px;
     border: rgb(250, 171, 171) dashed 1px;
 }
 
