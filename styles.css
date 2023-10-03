@@ -1,19 +1,41 @@
 *{
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
+    
 }
+
+body{
+    margin-left: 2%;
+    padding: 0;
+}
+
 
 .header-subheader-combine *{
     font-family: cursive;
-    text-align: center;
-    margin: 0px;
+    text-align: left;
+    margin-left: 1%;
     padding: 0px;
+    height: 10px;
+    color: rgb(230, 230,230);
 }
+
 .header-subheader-combine header{
     font-size: 40px;
 }
+
 .header-subheader-combine h6{
     font-size: 15px;
+    margin-left: 3%;
 }
+
+.project-name-description *{
+    display: inline-block;
+}
+
+.project-name-description h6{
+    padding-left: 2%;
+}
+
 
 .links{
     display: flex;
@@ -24,7 +46,7 @@
 
 .link-image{
     text-align: center;
-    margin: 1%;
+    margin: 25px;
 }
 
 .link-image img{
