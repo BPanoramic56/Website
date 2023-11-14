@@ -174,3 +174,34 @@ h5{
     75%{transform: translateX(-900px)}
     100%{transform: translateX(0px);}
 }
+
+/* Server Page CSS */
+
+.server-links-div{
+    display: flexbox;
+    background-color: rgba(53, 53, 53, 0.436);
+}
+
+.Apache-box{
+    flex:0;
+}
+
+.Atheos-box{
+    flex:1;
+}
+
+.Cockpit-box{
+    flex:2;
+}
+
+.NextCloud-box{
+    flex:3;
+}
+
+.Portainer-box{
+    flex:4;
+}
+
+.Scrutiny-box{
+    flex:5;
+}
