@@ -176,19 +176,26 @@ h5{
 /* Server Page CSS */
 
 .server-links-div{
-    display: flexbox;
-    background-color: rgba(53, 53, 53, 0.436);
+    display: flex;
+    flex-direction: column;
+}
+
+.server-links-div a{
+    color: rgb(0, 191, 255);
+    font-size: 120%;
 }
 
 .Apache-box{
     flex:0;
+    margin-left: 1px
 }
 
 .Atheos-box{
     flex:1;
 }
 
-.Cockpit-box{
+
+.CockPit-box{
     flex:2;
 }
 
@@ -202,4 +209,9 @@ h5{
 
 .Scrutiny-box{
     flex:5;
+}
+
+
+.Apache-box p, .Atheos-box p, .CockPit-box p, .NextCloud-box p, .Portainer-box p, .Scrutiny-box p{
+    margin-left: 2.5%;
 }
