@@ -38,12 +38,12 @@ h5{
 .project-name-description *{
     display: inline-block;
     margin-left: 2%;
+    width: 100%;
 }
 
 .project-name-description h6{
     padding-left: 2%;
 }
-
 
 .links{
     display: flex;
@@ -194,7 +194,6 @@ h5{
     flex:1;
 }
 
-
 .CockPit-box{
     flex:2;
 }
@@ -211,7 +210,11 @@ h5{
     flex:5;
 }
 
-
 .Apache-box p, .Atheos-box p, .CockPit-box p, .NextCloud-box p, .Portainer-box p, .Scrutiny-box p{
     margin-left: 2.5%;
+}
+
+.DiagramIframe{
+    width: 500px;
+    height: 500px;
 }
