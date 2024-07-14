@@ -19,11 +19,11 @@ h5{
 
 .header-subheader-combine *{
     font-family: cursive;
-    text-align: left;
+    text-align: center;
     margin-left: 0%;
     padding: 0px;
     height: 10px;
-    color: rgb(230, 230,230);
+    color: rgb(215, 193, 255);
 }
 
 .header-subheader-combine header{
@@ -35,14 +35,29 @@ h5{
     margin-left: 2%;
 }
 
-.project-name-description *{
-    display: inline-block;
-    margin-left: 2%;
-    width: 100%;
+.master-projects-div{
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
 }
 
-.project-name-description h6{
-    padding-left: 2%;
+.project-card{
+    display: inline-block;
+    margin-left: 2%;
+    border: 2px solid #e7e7e7;
+    border-radius: 4px;
+    padding: .5rem;
+    background-color: rgb(15, 0, 54);
+    color: red;
+}
+
+.project-card * {
+    background-color: rgb(15, 0, 54);
+}
+
+.project-card h6{
+    padding-left: 4%;
 }
 
 .links{
