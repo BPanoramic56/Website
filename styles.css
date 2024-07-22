@@ -26,6 +26,8 @@ h5{
     padding: 0;
 }
 
+/* Introduction Sequence */
+
 .intro-div{
     position: fixed;
     z-index: 1;
@@ -68,22 +70,13 @@ h5{
     transition: ease-in-out 0.5s;
 }
 
-.header-subheader-combine *{
-    text-align: left;
-    margin-left: 0%;
-    padding: 0px;
-    height: 10px;
-    color: rgb(215, 193, 255);
+
+@keyframes fadeIn {
+    0% {opacity: 0; transform: translateY(+50px);}
+    100% {opacity: 1;transform: translateY(0px);}
 }
 
-.header-subheader-combine header{
-    font-size: 40px;
-}
-
-.header-subheader-combine h6{
-    font-size: 15px;
-    margin-left: 2%;
-}
+/* Projects Section */
 
 .master-projects-div{
     display: flex;
@@ -137,14 +130,10 @@ h5{
 }
 
 .project-card .btn:hover{
-    box-shadow: 0px 2px 100px rgb(38, 30, 251);
+    box-shadow: 0px 2px 80px rgb(126, 2, 227);
 }
 
-@keyframes fadeIn {
-    0% {opacity: 0; transform: translateY(+50px);}
-    100% {opacity: 1;transform: translateY(0px);}
-  }
-  
+/* Side Bar */
 
 nav{
     position: absolute;
@@ -208,7 +197,7 @@ nav a{
     display: table;
     width: 300px;
     padding: 10px;
-    padding-bottom: 15px;;
+    padding-bottom: 25px;;
     transition: all 0.5s ease;
 }
 
@@ -244,6 +233,8 @@ ul{
     list-style: none;
 }
 
+/* Main Page Section */
+
 .main {
     margin-left: 120px;
     margin-top:40px;
@@ -253,13 +244,6 @@ ul{
 .side-nav:hover + .main, .side-nav:hover + footer {
     margin-left: 300px;
 }
-
-/* .links{
-    display: flex;
-    width: 100%;
-    margin-top: 5%;
-    text-align: right;
-} */
 
 .link-image{
     text-align: center;
@@ -274,14 +258,7 @@ ul{
     flex-direction: collumn;
 }
 
-/* .links img{
-    width: 30px;
-    height: 30px;
-} */
-
-/* .project_links{
-    flex: 1;
-} */
+/* Recipe Page */ 
 
 .recipes_header{
     font-size: 40px;
@@ -427,20 +404,44 @@ ul{
     height: 500px;
 }
 
-.footer *{
-    background-color: inherit;
+.ChartDiv {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  height: auto;
+  transition: opacity 0.5s, visibility 0.5s;
 }
 
-.footer{
-    background-color: rgb(40, 40, 40);
-    align-items: left;
-    margin-left: 120px;
-    margin-top: 40px;
-    transition: margin-left 0.5s ease;
-    width: 100%;
-    position: fixed;
-    box-sizing: border-box;
-    bottom: 0;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+.ChartDiv iframe {
+  display: block;
+  width: 100%;
+  transition: height 1s ease 2s, width 1s ease 2s;
+}
+ 
+.OverlayText {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: #141414; 
+  color: #ca98e8; 
+  padding: 10px 20px; 
+  font-size: 20px;
+  text-align: center;
+  opacity: 100%;
+    transition: opacity 2s ease 1s;
+}
+
+.ChartDiv iframe:hover{
+    height: 400px;
+    width: 400px;
+}
+
+.ChartDiv:hover .OverlayText{
+    opacity: 0%;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
 }

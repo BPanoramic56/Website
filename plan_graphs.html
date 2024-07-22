@@ -1,19 +1,70 @@
 <!DOCTYPE html>
-<html lang="en"><head><link rel="stylesheet" type="text/css" href="styles.css">
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <meta charset="utf-8">
     <title>Panoramic56-Diagrams</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 
-<body>
-    <div class = "CS3500Chart">
-        <div class = "ChartHeader">
-            <h3>Chart Representing the CS3500 Projects, currently only containing the Spreadsheet Project</h3>
-            <iframe class = "DiagramIframe" frameborder="0" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=CS3500Chart#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FBPanoramic56%2FDegreePlan%2Fmain%2FCS3500Chart"></iframe>
-        </div>
-        <div class = "ChartHeader">
-            <h3>Chart Representing the Nuclear Engineering Minor, with it's requirements and pre-requisites</h3>
-            <iframe class = "DiagramIframe" frameborder="0" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=NuclearEngineeringMinor.drawio.html#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FBPanoramic56%2FDegreePlan%2Fmain%2FNuclearEngineeringMinor.drawio.html"></iframe>
-        </div>
+<body class="plan_graphs">
+    <div class="side-nav">
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="#" class="logo">
+                        <img src="docs/assets/images/Panoramic-4.png">
+                        <span class="nav-item">BPanoramic56</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas bx bxs-landscape"></i>
+                        <span class="nav-item">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas bx bxs-grid-alt"></i>
+                        <span class="nav-item">Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas bx bxs-server"></i> <span class="nav-item">Server</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas bx bxs-info-square"></i>
+                        <span class="nav-item">About</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </div>
+
+    <div class="main">
+
+        <div class="ChartDiv">
+            <iframe frameborder="0"
+                src="https://viewer.diagrams.net/?tags=%7B%7D&amp;highlight=0000ff&amp;edit=_blank&amp;layers=1&amp;nav=1&amp;title=CS3500Chart#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FBPanoramic56%2FDegreePlan%2Fmain%2FCS3500Chart">
+            </iframe>
+            <p class="OverlayText">CS3500 Chart</p>
+        </div>
+        <div class="ChartDiv">
+            <iframe class="DiagramIframe" frameborder="0"
+                src="https://viewer.diagrams.net/?tags=%7B%7D&amp;highlight=0000ff&amp;edit=_blank&amp;layers=1&amp;nav=1&amp;title=NuclearEngineeringMinor.drawio.html#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FBPanoramic56%2FDegreePlan%2Fmain%2FNuclearEngineeringMinor.drawio.html"></iframe>
+            <p class="OverlayText">Nuclear Engineering Minor Chart</p>
+        </div>
+        <script src="DiagramsScript.js"></script>
+
+    </div>
+
+
+
+
 </body>
+
 </html>
