@@ -186,7 +186,7 @@ nav a i, nav a span{
 
 @keyframes logo-hover{
     0% {filter:hue-rotate(0deg);}
-    100% {filter:hue-rotate(+0.1turn)}
+    100% {filter:hue-rotate(+0.9turn)}
 }
 
 .logo img{
@@ -250,16 +250,16 @@ ul{
     transition: margin-left 0.5s;
 }
 
-.side-nav:hover + .main {
+.side-nav:hover + .main, .side-nav:hover + footer {
     margin-left: 300px;
 }
 
-.links{
+/* .links{
     display: flex;
     width: 100%;
     margin-top: 5%;
     text-align: right;
-}
+} */
 
 .link-image{
     text-align: center;
@@ -274,15 +274,14 @@ ul{
     flex-direction: collumn;
 }
 
-.links img{
+/* .links img{
     width: 30px;
     height: 30px;
-    border: rgb(250, 171, 171) dashed 1px;
-}
+} */
 
-.project_links{
+/* .project_links{
     flex: 1;
-}
+} */
 
 .recipes_header{
     font-size: 40px;
@@ -426,4 +425,22 @@ ul{
 .DiagramIframe{
     width: 500px;
     height: 500px;
+}
+
+.footer *{
+    background-color: inherit;
+}
+
+.footer{
+    background-color: rgb(40, 40, 40);
+    align-items: left;
+    margin-left: 120px;
+    margin-top: 40px;
+    transition: margin-left 0.5s ease;
+    width: 100%;
+    position: fixed;
+    box-sizing: border-box;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }
