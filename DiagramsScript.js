@@ -1,6 +1,6 @@
 document.querySelectorAll('.ChartDiv').forEach(box => {
+    console.log("A");
     let hideTimeout;
-
     box.addEventListener('mouseover', () => {
         hideTimeout = setTimeout(() => {
             document.querySelectorAll('.ChartDiv').forEach(otherBox => {
@@ -15,6 +15,6 @@ document.querySelectorAll('.ChartDiv').forEach(box => {
         clearTimeout(hideTimeout);
         document.querySelectorAll('.ChartDiv').forEach(otherBox => {
             otherBox.classList.remove('hidden');
-        });
+        }, 1000);
     });
 });
