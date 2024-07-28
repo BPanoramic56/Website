@@ -372,51 +372,6 @@ ul {
 }
 
 /* Server Page CSS */
-
-.server-links-div {
-    display: flex;
-    flex-direction: column;
-}
-
-.server-links-div a {
-    color: rgb(0, 191, 255);
-    font-size: 120%;
-}
-
-.Apache-box {
-    flex: 0;
-    margin-left: 1px
-}
-
-.Atheos-box {
-    flex: 1;
-}
-
-.CockPit-box {
-    flex: 2;
-}
-
-.NextCloud-box {
-    flex: 3;
-}
-
-.Portainer-box {
-    flex: 4;
-}
-
-.Scrutiny-box {
-    flex: 5;
-}
-
-.Apache-box p,
-.Atheos-box p,
-.CockPit-box p,
-.NextCloud-box p,
-.Portainer-box p,
-.Scrutiny-box p {
-    margin-left: 2.5%;
-}
-
 /* Chart Section */
 
 .master-chart-div{
