@@ -1,0 +1,37 @@
+{
+  "name": "odin-recipes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "<br /> Website<br />  <br /> URL: https://bpanoramic56.github.io/Website/; <br /> <br /> Author: BPanoramic56; <br /> <br /> Author's Github: https://github.com/BPanoramic56;<br /> <br /> Project Repo: https://github.com/BPanoramic56/Website;<br /> <br /> Last Updated: 8th of February, 2024; <br />",
+  "main": "DiagramsScript.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config webpack.dev.js --open",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "sass": "^1.77.8",
+    "sass-loader": "^16.0.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4",
+    "webpack-merge": "^6.0.1"
+  },
+  "dependencies": {
+    "path-browserify": "^1.0.1",
+    "request": "^2.79.0",
+    "util": "^0.12.5"
+  }
+}

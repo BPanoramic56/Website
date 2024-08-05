@@ -336,35 +336,35 @@ ul {
     width: 1200px;
 }
 
-.inner#chocolate_chip_coffee_cake_image {
+/* .inner#chocolate_chip_coffee_cake_image {
     background:
-        url(docs/assets/images/CCCC1.jpg) 0 0,
-        url(docs/assets/images/CCCC2.jpg) 300px 0,
-        url(docs/assets/images/CCCC3.jpg) 600px 0,
-        url(docs/assets/images/CCCC4.jpg) 900px 0;
+        url(src/docs/assets/images/CCCC1.jpg) 0 0,
+        url(src/docs/assets/images/CCCC2.jpg) 300px 0,
+        url(src/docs/assets/images/CCCC3.jpg) 600px 0,
+        url(src/docs/assets/images/CCCC4.jpg) 900px 0;
     background-size: 300px 300px;
     background-repeat: no-repeat;
 }
 
 .inner#buffalo_chicken_sandwiches_image {
     background:
-        url(docs/assets/images/BCS1.jpg) 0 0,
-        url(docs/assets/images/BCS2.jpg) 300px 0,
-        url(docs/assets/images/BCS3.jpg) 600px 0,
-        url(docs/assets/images/BCS4.jpg) 900px 0;
+        url(src/docs/assets/images/BCS1.jpg) 0 0,
+        url(src/docs/assets/images/BCS2.jpg) 300px 0,
+        url(src/docs/assets/images/BCS3.jpg) 600px 0,
+        url(src/docs/assets/images/BCS4.jpg) 900px 0;
     background-size: 300px 300px;
     background-repeat: no-repeat;
 }
 
 .inner#cuban_ropa_vieja_image {
     background:
-        url(docs/assets/images/CuRoVi1.jpg) 0 0,
-        url(docs/assets/images/CuRoVi2.jpg) 300px 0,
-        url(docs/assets/images/CuRoVi3.jpg) 600px 0,
-        url(docs/assets/images/CuRoVi4.jpg) 900px 0;
+        url(src/docs/assets/images/CuRoVi1.jpg) 0 0,
+        url(src/docs/assets/images/CuRoVi2.jpg) 300px 0,
+        url(src/docs/assets/images/CuRoVi3.jpg) 600px 0,
+        url(src/docs/assets/images/CuRoVi4.jpg) 900px 0;
     background-size: 300px 300px;
     background-repeat: no-repeat;
-}
+} */
 
 .outer:hover .inner,
 .outer:focus .inner {

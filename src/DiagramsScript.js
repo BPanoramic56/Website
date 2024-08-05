@@ -1,3 +1,6 @@
+// require("./main.css");
+// import "./styles.css";
+
 document.querySelectorAll('.ChartDiv').forEach(box => {
     console.log("A");
     let hideTimeout;
