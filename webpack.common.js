@@ -42,12 +42,17 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
+            filename: "index.html",
             template: './src/template.html',
             // chunks: ['main'], // Include only the main chunk for this template
         }),
-        // new MiniCssExtractPlugin({
-        //     filename: './src/styles.css',
-        //     chunkFilename: 'styles.css',
-        // })
+        new HtmlWebpackPlugin({
+            filename: "server_page.html",
+            template: './src/server_page.html',
+        }),
+        new HtmlWebpackPlugin({
+            filename: "digital_airport.html",
+            template: './src/digital_airport.html',
+        })
     ],
 };
