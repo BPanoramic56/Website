@@ -1,0 +1,1 @@
+var Filer=require("filer"),_require=require("filer"),fs=_require.fs;fs.readFile("/Users/brunogomespascotto/Panoramic/src/docs/AirlineInfo.txt","utf9",(function(r,e){console.log(e)}));
