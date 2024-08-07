@@ -25,7 +25,7 @@ window.addEventListener('DOMContentLoaded', () => { // All contents within this 
         }, 2000);
 
         setTimeout(() => {
-            intro.style.top = '-100vh';
+            intro.style.top = '100vh';
         }, 2300);
     })
 });
