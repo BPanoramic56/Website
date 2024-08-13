@@ -50,8 +50,21 @@
         </nav>
     </div>
     <div class="main">
+        <script>
+            fetch("docs/AirlineInfo.txt").then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.text();
+            })
+                .then(data => {
+                    console.log(data);
+                })
+                .catch(error => {
+                    console.error('There was a problem with the fetch operation:', error);
+                });
+        </script>
     </div>
-    <script src="DigitalAirport.js"></script>
 </body>
 
 </html>

@@ -3,6 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const webpack = require('webpack');
 const path = require('path');
 const { FilerWebpackPlugin } = require('filer/webpack');
+import {nodeResolve} from '@rollup/plugin-node-resolve';
 
 
 module.exports = {
@@ -62,11 +63,18 @@ module.exports = {
     }),
     new FilerWebpackPlugin({
       // Keeping this empty until I need to use it
-    })
+    }),
+    nodeResolve({
+      // Indicate that we target a browser environment.
+      browser: true,
+      // Exclude any dependencies except for puppeteer-core.
+      // `npm install puppeteer-core` # To install puppeteer-core if needed.
+      resolveOnly: ['puppeteer-core'],
+    }),
   ],
   // node: {
   //   __dirname: false,
   //   __filename: false,
   // },
-  target: 'web', // Ensure Webpack understands it's bundling for Node.js
+  target: 'module', // Ensure Webpack understands it's bundling for Node.js
 };
